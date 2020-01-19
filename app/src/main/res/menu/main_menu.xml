@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:title="Logout"
+        android:id="@+id/menuLogoutButton"/>
+    <item android:title="Map"
+        android:id="@+id/menuMapButton"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        app:showAsAction="always"
+        />
+    <item android:title="Profile"
+        android:id="@+id/menuProfileButton"/>
+    <item android:title="Weather"
+        android:id="@+id/menuWeatherButton"/>
+</menu>

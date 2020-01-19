@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "282559081961",
+    "firebase_url": "https://bitm-project-ca43d.firebaseio.com",
+    "project_id": "bitm-project-ca43d",
+    "storage_bucket": "bitm-project-ca43d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282559081961:android:9da35fb18e9cee7c14ef78",
+        "android_client_info": {
+          "package_name": "com.example.tourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282559081961-i30g7vce27rjeh60molgk3t13ihp6a7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tourmate",
+            "certificate_hash": "e31b133417adb8f9a4cb18976660213e91a138f7"
+          }
+        },
+        {
+          "client_id": "282559081961-fhkaeuluh82dkdknaitfqorktjpl8c80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUxrzLye3Jm3cFC2qlx8X1HxVepfXZc9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282559081961-fhkaeuluh82dkdknaitfqorktjpl8c80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

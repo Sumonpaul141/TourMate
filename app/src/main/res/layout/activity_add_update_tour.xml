@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUpdateTourActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#F7F7F7"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/tour"
+                    />
+
+                <TextView
+                    android:id="@+id/tripIntroTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="Planning A new Trip???"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/tripNameEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_design"
+                android:drawableLeft="@drawable/ic_directions_bus_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="Trip Name"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/tripDescriptionEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_design"
+                android:drawableLeft="@drawable/ic_description_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="Description"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/tripStartDateEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_design"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:hint="Start Date"
+                android:inputType="date"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/tripEndDateEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_design"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:hint="End Date"
+                android:inputType="date"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/tripBudgetEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="Budget"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+
+
+            <Button
+                android:id="@+id/addTripButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_design"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Add Tour"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/updateTripButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_design"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Update Trip"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

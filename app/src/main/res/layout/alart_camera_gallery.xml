@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Image From :"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimary"
+        android:layout_margin="2dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/cameraLL"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/dialogCameraBtn"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_camera_alt_black_24dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/galleryLL"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_image_black_24dp"
+                android:id="@+id/dailogGalleryBtn"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

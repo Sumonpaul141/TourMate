@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:layout_marginTop="55dp">
+
+        <TextView
+            android:id="@+id/dialogNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:layout_marginTop="90dp"/>
+        <TextView
+            android:id="@+id/dialogPhoneTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01670XXXXXX"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/dialogEmailTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="Emailid@email.com"
+            android:background="@color/colorWhite"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textSize="16sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tours"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginBottom="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Memories"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginBottom="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expences"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200000"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginBottom="15dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dialogUserImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/tour"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="1dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

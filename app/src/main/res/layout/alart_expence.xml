@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:hint="Expence Title"
+            android:id="@+id/expenceNameEt"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Expence Amount"
+            android:id="@+id/expenceAmountEt"
+            android:inputType="numberDecimal"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Expence"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"
+            android:id="@+id/addExpenceButton"/>
+        <Button
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Expence"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"
+            android:id="@+id/updateExpenceButton"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
